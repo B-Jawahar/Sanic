@@ -20,8 +20,6 @@ def sum_x_y(x, y):
     return x + y
 
 app = Sanic("CodeToAPI")
-HOST = "localhost"
-PORT = 8000
 
 @app.route('/')
 async def test(request):
